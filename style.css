@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*background: gray;*/
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    */
+}
+
+header{
+    background: forestgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 600px;
+}
+
+.img-container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main{
+    /*background: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 20px;
+}
+
+section{
+    padding: 20px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.flex-c-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.super-power{
+    
+}
+
+
+
+.super-power p{
+    font-size: 17px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.image-container{
+    height: 250px;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Input y button */
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    /*width: 150px;*/
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid green;
+    font-size: 16px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 280px;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Pokemon card */
+.pokemon-card{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    padding: 10px;
+}
+
+.pokemon-card h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pokemon-card img{
+    width: 100%;
+    background: gold;
+    border-radius: 15px;
+}
+
+.types-container{
+    padding: 5px 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.info{
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Types pokemons */
+.type{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.normal{
+    background: #155bb6;
+}
+
+.fighting{
+    background: #b69d0d;
+}
+
+.flying{
+    background: #0db0b6;
+}
+
+.poison{
+    background: #0d3ab6;
+}
+
+.ground{
+    background: #350e0e;
+}
+
+.rock{
+    background: #a9a9a9;
+}
+
+.bug{
+    background: #1fc219;
+}
+
+.ghost{
+    background: #aaaaaa;
+}
+
+.steel{
+    background: #525151;
+}
+
+.fire{
+    background: #bb0a0a;
+}
+
+.water{
+    background: #16b6b6;
+}
+
+.grass{
+    background: #049604;
+}
+
+.electric{
+    background: #078edd;
+}
+
+.psychic{
+    background: #b9063c;
+}
+
+.ice{
+    background: #82c7d3;
+}
+
+.dragon{
+    background: #41085c;
+}
+
+.dark{
+    background: #000000;
+}
+
+.fairy{
+    background: #cd55d1;
+}
+
+.stellar{
+    background: #5576d1;
+}
+
+.unknown{
+    background: #0f2e36;
+}
+
+.pokemon-card p{
+    
+    /*background: rgb(235, 140, 140); */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background: forestgreen;
+    height: 100px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
